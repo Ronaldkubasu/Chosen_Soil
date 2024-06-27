@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    background-attachment: fixed;
+}
+
+.logo img{
+    width: 100px;
+    height: 75px;
+    padding-left: 80px;
+}
+
+.section1{
+    display: flex;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.num{
+    display: flex;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.phone img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#p1{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number{
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(35, 15, 216);
+    width: 100%;
+    color: white;
+    padding-top: 5px;
+}
+
+ul li a{
+    font-weight: bold;
+    text-decoration: solid;
+    color: rgb(221, 18, 100);
+    transition: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 5px 20px;
+}
+
+ul li a:hover{
+    background-color: blue;
+    color: rgb(211, 92, 135);
+    transition: 1.0s ease;
+    border-radius: 50px;
+}
+
+
+.secimg{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Assets/baraka\photo.jpg);
+    height: 60vh;
+    background-size: cover ;
+    background-position: center;
+    padding-top: 60px;
+}
+
+.secimg img{
+    padding-left: 43%;
+    height: 150px;
+    width: 200px;
+}
+
+#head1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(187, 16, 118);
+}
+
+#head2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.img2 img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.section2{
+    display: flex;
+    width: 92%;
+    margin-top: 70px;
+    padding: 40px;
+}
+
+.part1{
+    width: 130%;
+    padding-left: 50px;
+}
+
+.part2{
+   padding-left: 100px;
+   width: 100%;
+   line-height: 1.6;
+   padding-right: 0px;
+}
+
+.photos img{
+    width: 90%;
+    height: 100%;
+    padding: 3px;
+}
+
+.photos{
+    display: flex;
+    margin-left: 30PX;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: rgb(221, 83, 166);
+    
+}
+
+
+.footer{
+    padding-top: 70px;
+    display: flex;
+    margin: 30px;
+    padding-left: 70px;
+    background-color: rgb(13, 13, 221);
+    margin: 0;
+    
+}
+
+.contact img{
+    width: 15px;
+    height: 15px;
+    /* This is where i made a padding skill */
+    padding-left: 10px;
+}
+
+.about{
+    width: 20%;
+    padding-right: 100px;
+    line-height: 1.6;
+}
+
+.contact{
+    line-height: 1.8;
+    /* width: 40%; */
+}
+
+.pf{
+    padding-right: 60%;
+}
+
+.icons .fa{
+    color: red;
+    cursor: pointer;
+    /* float: right; */
+    padding-top: 0px;
+    list-style-type: none;
+    height: 30px;
+    width: 30px;
+    }
+
+.footer2{
+    padding: 30px;
+    background-color: rgb(204, 199, 238);
+    height: 20px;
+    display: flex;
+}
+
+#icons{
+    padding-top: 50px;
+}
+
+.ref{
+    border: 1px solid blue;
+    padding: 6px 20px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+}
+
+.ref:hover{
+    color: rgb(5, 52, 109);
+    background-color: rgb(192, 17, 113);
+    transition: 1.0s;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(255, 0, 85);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #051897;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
